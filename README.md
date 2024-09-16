@@ -1,4 +1,11 @@
 # Running the Project in Android Studio
+# About project
+1. User Registration/Login using Firebase Authentication.
+2. Create, Read, Update, and Delete (CRUD) operations for tasks.
+3. Task Management with a status update (Pending, In Progress, Completed).**Storing in both firebase realtime database and local, No need of Google Drive Backup**
+4. Push Notifications to notify the user when a task is updated.**(Not compleated required API or Firebase Billing account to trigger notification from server side)**
+5. UI Design adhering to Material Design guidelines.
+6. **Used MVVM Architecture**
 
 ## Prerequisites
 
