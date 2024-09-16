@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510720725733",
+    "project_id": "aimbeat-4271d",
+    "storage_bucket": "aimbeat-4271d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510720725733:android:d39a9dff3983cd4a59fa0c",
+        "android_client_info": {
+          "package_name": "com.aimbeat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9OhBYAb2vNdAG2YkNW_8t4wNUbsG7_zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

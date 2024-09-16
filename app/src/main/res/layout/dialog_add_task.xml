@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Title" />
+
+    <EditText
+        android:id="@+id/edit_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Task Title"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:background="@drawable/round_border_bg"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/edit_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:hint="Task Description"
+        android:background="@drawable/round_border_bg"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Due Date" />
+
+    <TextView
+        android:id="@+id/edit_task_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@drawable/baseline_calendar_month_24"
+        android:hint="Select Date"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:background="@drawable/round_border_bg"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Status" />
+
+    <Spinner
+        android:id="@+id/spinner_task_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/task_status_array" />
+
+</LinearLayout>
